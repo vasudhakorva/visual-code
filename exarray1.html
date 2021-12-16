@@ -1,0 +1,32 @@
+<html>
+<style>
+#container {
+  width : 190px;
+  height : 150px;
+  background-image : url("image.jpg");
+  position : relative;
+  align : center;
+}
+#animate {
+width : 70px;
+height : 40px;
+position : absolute;
+top : 40px;
+left : 40px;
+color : white;
+
+}
+</style>
+<body>
+<h1> <center><i><b><u>ANIMATION PAGE</u></b></i> </center></h1>
+<div id="container">
+<div id="animate" onclick = "changeText(this)">heading....
+</div>
+</div>
+<script>
+function changeText(id) {
+id.innerHTML = "Good Morning";
+}
+</script>
+</body>
+</html>
